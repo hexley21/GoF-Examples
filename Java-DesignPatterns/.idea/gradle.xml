@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/abstract-factory" />
+            <option value="$PROJECT_DIR$/builder" />
           </set>
         </option>
       </GradleProjectSettings>
