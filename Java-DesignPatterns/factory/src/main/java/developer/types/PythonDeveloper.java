@@ -2,6 +2,9 @@ package developer.types;
 
 import developer.Developer;
 
+/**
+ * The PythonDeveloper class implements the Developer interface and provides a public method for doing Python-specific tasks.
+ */
 public class PythonDeveloper implements Developer {
     @Override
     public void writeCode() {
@@ -16,5 +19,9 @@ public class PythonDeveloper implements Developer {
     @Override
     public void pushChanges() {
         System.out.println("PythonDeveloper pushed changes to Git...");
+    }
+
+    public void doPythonStuff() {
+        System.out.println("Some python stuff has made...");
     }
 }
