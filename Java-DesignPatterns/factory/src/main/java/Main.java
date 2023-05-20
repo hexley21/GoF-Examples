@@ -5,8 +5,6 @@ import developer.factory.types.PythonDeveloperFactory;
 import developer.types.JavaDeveloper;
 import developer.types.PythonDeveloper;
 
-import java.util.List;
-
 public class Main {
 
     /**
