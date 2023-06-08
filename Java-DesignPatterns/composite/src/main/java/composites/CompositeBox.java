@@ -1,6 +1,7 @@
 package composites;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CompositeBox implements Box {
@@ -9,6 +10,10 @@ public class CompositeBox implements Box {
 
     public CompositeBox(List<Box> boxContainer) {
         this.boxContainer = boxContainer;
+    }
+
+    public CompositeBox(Box... boxes) {
+        this.boxContainer = Arrays.asList(boxes);
     }
 
     public CompositeBox() {
