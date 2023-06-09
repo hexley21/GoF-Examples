@@ -2,14 +2,30 @@ package camera.types.decorators;
 
 import camera.ICamera;
 
-public class CameraDecorator implements ICamera {
+/**
+ * The CameraDecorator class is an abstract decorator that implements the ICamera interface
+ * and provides a base implementation for all camera decorators.
+ */
+public abstract class CameraDecorator implements ICamera {
 
-    private final ICamera camera;
+    /**
+     * The wrapped camera object being decorated.
+     */
+    protected final ICamera camera;
 
+    /**
+     * Constructs a new CameraDecorator object with the specified camera to be decorated.
+     *
+     * @param camera The camera object to be decorated.
+     */
     public CameraDecorator(ICamera camera) {
         this.camera = camera;
     }
 
+    /**
+     * Takes a photo using the decorated camera object.
+     * This method delegates the operation to the wrapped camera object.
+     */
     @Override
     public void takePhoto() {
         camera.takePhoto();

@@ -6,7 +6,7 @@ import camera.types.decorators.addons.MemoreCameraDecorator;
 
 public class Main {
     public static void main(String[] args) {
-
+        // Create a decorated camera object with multiple decorators
         ICamera camera = new MemoreCameraDecorator(
                 new LensCameraDecorator(
                         new FlashCameraDecorator(
@@ -15,6 +15,7 @@ public class Main {
                 )
         );
 
+        // Take a photo using the decorated camera
         camera.takePhoto();
     }
 }
