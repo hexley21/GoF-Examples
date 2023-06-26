@@ -9,9 +9,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/abstract-factory" />
+            <option value="$PROJECT_DIR$/adapter" />
+            <option value="$PROJECT_DIR$/bridge" />
             <option value="$PROJECT_DIR$/builder" />
+            <option value="$PROJECT_DIR$/composite" />
+            <option value="$PROJECT_DIR$/decorator" />
+            <option value="$PROJECT_DIR$/facade" />
             <option value="$PROJECT_DIR$/factory" />
+            <option value="$PROJECT_DIR$/flyweight" />
             <option value="$PROJECT_DIR$/prototype" />
+            <option value="$PROJECT_DIR$/proxy" />
             <option value="$PROJECT_DIR$/singleton" />
           </set>
         </option>
