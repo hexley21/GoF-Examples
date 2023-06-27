@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/prototype" />
             <option value="$PROJECT_DIR$/proxy" />
             <option value="$PROJECT_DIR$/singleton" />
+            <option value="$PROJECT_DIR$/strategy" />
           </set>
         </option>
       </GradleProjectSettings>
